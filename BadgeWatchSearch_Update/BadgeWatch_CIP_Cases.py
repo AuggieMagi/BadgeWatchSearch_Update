@@ -2,8 +2,6 @@ import sqlite3
 conn = sqlite3.connect("BadgeWatch_DB.db")
 cur = conn.cursor()
 
-num = 3
-
 sql_Pol = """
 CREATE TABLE PoliceCases(
     ID INT,
